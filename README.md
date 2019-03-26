@@ -6,6 +6,11 @@ The world's biggest and best MOOC platform. Keep studing from this to be a life-
 - Data Structure and Algorithm
   - Algorithmic Toolbox
 - Introduction to Data Science in Python
+- [Python for Everybody](https://www.coursera.org/specializations/python)
+  - Programming for Everybody
+  - Python Data Structures
+  - Using Python to Access Web Data
+  - Using Database with Python
 - [Full-Stack Web Development with React Specialization](https://www.coursera.org/specializations/full-stack-react)
   - Front-End Web UI Frameworks and Tools: Bootstrap 4
   - Front-End Web Development with React
