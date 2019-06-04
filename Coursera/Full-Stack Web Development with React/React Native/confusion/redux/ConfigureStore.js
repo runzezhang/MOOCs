@@ -5,19 +5,19 @@ import { dishes } from './dishes';
 import { comments } from './comments';
 import { promotions } from './promotions';
 import { leaders } from './leaders';
-import { favourites } from './favourites';
+import { favorites } from './favorites';
 
 export const ConfigureStore = () => {
-  const store = createStore(
-      combineReducers({
-          dishes,
-          comments,
-          promotions,
-          leaders,
-          favourites,
-      }),
-      applyMiddleware(thunk, logger)
-  );
-
-  return store;
-}
+    const store = createStore(
+        combineReducers({
+            dishes,
+            comments,
+            promotions,
+            leaders,
+            favorites,
+        }),
+        applyMiddleware(thunk, logger)
+    );
+    
+    return store;
+};
