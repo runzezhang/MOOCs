@@ -1,5 +1,7 @@
 {
+  "name": "empty-project-template",
   "main": "node_modules/expo/AppEntry.js",
+  "private": true,
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -7,12 +9,20 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "^32.0.0",
+    "axios": "^0.18.0",
+    "eslint": "^5.8.0",
+    "expo": "^31.0.2",
     "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
+    "react-native-datepicker": "1.7.2",
+    "react-native-elements": "^1.0.0-beta7",
+    "react-navigation": "^2.18.2",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0"
-  },
-  "private": true
+    "babel-preset-expo": "^5.0.0",
+    "redux-logger": "^3.0.6"
+  }
 }
