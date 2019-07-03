@@ -13,11 +13,13 @@ const app = express();
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 
+// Router Path 
 app.use('/dishes', dishRouter);
-// app.use('/promotions', promoRouter);
-// app.use('/leaders', leaderRouter);
+app.use('/promotions', promoRouter);
+app.use('/leaders', leaderRouter);
 app.use(express.static(__dirname + '/public'));
 
+// Config
 app.use((req, res, next) => {
   console.log(req.headers);
   res.statusCode = 200;
