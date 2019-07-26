@@ -1,17 +1,16 @@
 {
-  "name": "node-express",
+  "name": "node-mongo",
   "version": "1.0.0",
-  "description": "Node Express Project",
+  "description": "Node MongoDB Example",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index"
   },
-  "author": "Reamsey",
+  "author": "Jogesh Muppala",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "morgan": "^1.9.1"
+    "assert": "^1.4.1",
+    "mongodb": "^2.2.33"
   }
 }
