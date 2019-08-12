@@ -3,7 +3,7 @@ Actually it is not only for MOOCs, but also includes all online courses I had ta
 
 ## Coursera
 The world's biggest and best MOOC platform. Keep studing from this to be a life-long leaner.
-- Data Structure and Algorithm
+- [Data Structure and Algorithm](https://www.coursera.org/specializations/data-structures-algorithms)
   - Algorithmic Toolbox [Source Code](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Data%20Structure%20and%20Algorithm/Algorithmic%20Toolbox?1565586017329)
 - Introduction to Data Science in Python [Source Code](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Introduction%20to%20Data%20Science%20in%20Python?1565585987781)
 - [Python for Everybody](https://www.coursera.org/specializations/python)
@@ -32,8 +32,10 @@ Free course for rookie is good, awsome online code enviornment. But the project 
 - Introduction to CSS
 - Introduction to SASS
 - Introduction to JavaScript
-- Introduction to Python2
+- Introduction to Python2  
+
 Check all 4 paths at Code Cademy [here](https://www.codecademy.com/catalog/subject/all)
+[Check my badges from codecademy](https://www.codecademy.com/profiles/RamseyZhang)
 
 ## [九章算法](https://www.jiuzhang.com/)
 算法班起家的程序员职业培训，算法和系统设计的课讲的很好，有很好的练习体系，付费培训中我觉得非常物有所值的。
