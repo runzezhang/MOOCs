@@ -27,15 +27,15 @@ Best and cheap course website for engineer and skill learning. Without too much 
 - 
 
 ## Code Cademy
-Free course for rookie is good, awsome online code enviornment. But the project for Pro users..emm Not up to expectations, not bad for learning but the paid project may better like a real industry project. Upgrade much seems recently, I never use the Data Science Part, but it maybe a good course to start data science learning as well.
+Free course for rookie is good, awsome online code enviornment. But the project for Pro users..emm Not up to expectations, not bad for learning but the paid project may better like a real industry project. Upgrade much seems recently, I never use the Data Science Part, but it maybe a good course to start data science learning as well.<br>
+Check all 4 paths at Code Cademy [here](https://www.codecademy.com/catalog/subject/all)<br>
+[Check my badges from codecademy](https://www.codecademy.com/profiles/RamseyZhang)
 - Introduction to HTML
 - Introduction to CSS
 - Introduction to SASS
 - Introduction to JavaScript
 - Introduction to Python2  
 
-- Check all 4 paths at Code Cademy [here](https://www.codecademy.com/catalog/subject/all)
-- [Check my badges from codecademy](https://www.codecademy.com/profiles/RamseyZhang)
 
 ## [九章算法](https://www.jiuzhang.com/)
 算法班起家的程序员职业培训，算法和系统设计的课讲的很好，有很好的练习体系，付费培训中我觉得非常物有所值的。
