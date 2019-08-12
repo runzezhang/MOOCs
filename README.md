@@ -34,8 +34,8 @@ Free course for rookie is good, awsome online code enviornment. But the project 
 - Introduction to JavaScript
 - Introduction to Python2  
 
-Check all 4 paths at Code Cademy [here](https://www.codecademy.com/catalog/subject/all)
-[Check my badges from codecademy](https://www.codecademy.com/profiles/RamseyZhang)
+- Check all 4 paths at Code Cademy [here](https://www.codecademy.com/catalog/subject/all)
+- [Check my badges from codecademy](https://www.codecademy.com/profiles/RamseyZhang)
 
 ## [九章算法](https://www.jiuzhang.com/)
 算法班起家的程序员职业培训，算法和系统设计的课讲的很好，有很好的练习体系，付费培训中我觉得非常物有所值的。
