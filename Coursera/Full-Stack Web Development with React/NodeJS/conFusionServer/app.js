@@ -4,31 +4,6 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-// function auth (req, res, next) {
-//   console.log(req.headers);
-//   var authHeader = req.headers.authorization;
-//   if (!authHeader) {
-//       var err = new Error('You are not authenticated!');
-//       res.setHeader('WWW-Authenticate', 'Basic');
-//       err.status = 401;
-//       next(err);
-//       return;
-//   }
-
-//   var auth = new Buffer.from(authHeader.split(' ')[1], 'base64').toString().split(':');
-//   var user = auth[0];
-//   var pass = auth[1];
-//   if (user == 'admin' && pass == 'password') {
-//       next(); // authorized
-//   } else {
-//       var err = new Error('You are not authenticated!');
-//       res.setHeader('WWW-Authenticate', 'Basic');      
-//       err.status = 401;
-//       next(err);
-//   }
-// }
-
-// app.use(auth);
 var session = require('express-session');
 var FileStore = require('session-file-store')(session);
 
@@ -37,6 +12,8 @@ var users = require('./routes/users');
 var dishRouter = require('./routes/dishRouter');
 var promoRouter = require('./routes/promoRouter');
 var leaderRouter = require('./routes/leaderRouter');
+const uploadRouter = require('./routes/uploadRouter');
+const favoriteRouter = require('./routes/favoriteRouter')
 var config = require('./config');
 
 const mongoose = require('mongoose');
@@ -62,12 +39,19 @@ connect.then((db) => {
 
 var app = express();
 
+// Secure traffic only
+app.all('*', (req, res, next) => {
+  if (req.secure) {
+    return next();
+  } else {
+    res.redirect(307, 'https://' + req.hostname + ':' + app.get('secPort') + req.url);
+  }
+});
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
-// uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
@@ -89,13 +73,29 @@ app.use(passport.initialize());
 app.use('/', index);
 app.use('/users', users);
 
+// function auth (req, res, next) {
+//   console.log(req.user);
 
+//   if (!req.user) {
+//     var err = new Error('You are not authenticated!');
+//     res.setHeader('WWW-Authenticate', 'Basic');                          
+//     err.status = 401;
+//     next(err);
+//   }
+//   else {
+//         next();
+//   }
+// }
+
+// app.use(auth);
 
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/dishes', dishRouter);
 app.use('/promotions', promoRouter);
 app.use('/leaders', leaderRouter);
+app.use('/imageUpload', uploadRouter);
+app.use('/favorites', favoriteRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
