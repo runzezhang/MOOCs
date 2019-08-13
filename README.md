@@ -24,7 +24,6 @@ Best and cheap course website for engineer and skill learning. Without too much 
 - [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)
 - [Java Programming Masterclass for Software Developers](https://www.udemy.com/java-the-complete-java-developer-course/)
 - [Machine Learning, Data Science and Deep Learning with Python](https://www.udemy.com/data-science-and-machine-learning-with-python-hands-on/)
-- 
 
 ## Code Cademy
 Free course for rookie is good, awsome online code enviornment. But the project for Pro users..emm Not up to expectations, not bad for learning but the paid project may better like a real industry project. Upgrade much seems recently, I never use the Data Science Part, but it maybe a good course to start data science learning as well.<br>
@@ -36,6 +35,9 @@ Check all 4 paths at Code Cademy [here](https://www.codecademy.com/catalog/subje
 - Introduction to JavaScript
 - Introduction to Python2  
 
+## Youtube/Bilibili
+Many free courses are on Youtube/Bilibili actually!
+- [Crash Course Computer Science](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
 
 ## [九章算法](https://www.jiuzhang.com/)
 算法班起家的程序员职业培训，算法和系统设计的课讲的很好，有很好的练习体系，付费培训中我觉得非常物有所值的。
@@ -50,6 +52,7 @@ Check all 4 paths at Code Cademy [here](https://www.codecademy.com/catalog/subje
 - [JavaScript 微课](https://www.w3cschool.cn/minicourse/play/jscourse)
 - [JQuery 微课](https://www.w3cschool.cn/minicourse/play/jquerycourse)
 - [Python3 微课](https://www.w3cschool.cn/minicourse/play/python3course)
+- [Git微课](https://www.w3cschool.cn/minicourse/play/gitcourse?)
 - [编程实战](https://www.w3cschool.cn/codecamp/list)
 
 ## [极客时间](https://www.geekbang.org)
