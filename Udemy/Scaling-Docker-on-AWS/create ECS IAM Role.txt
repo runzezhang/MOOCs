@@ -1,0 +1,40 @@
+Hi,
+
+Here's a step by step with the new UI for creating the instance role (the first one on video):
+
+1. Goto roles
+
+2. Click create role
+
+3. Make sure "AWS service" is selected as the trusted entity
+
+4. Under the choose the service section, click EC2 from the top row (not from the list of a million services on the bottom).
+
+5. Click the next: permissions button
+
+6. Filter the policy for "AmazonEC2ContainerServiceForEC2Role" (same as on video basically) and then check it
+
+7. Click next: tags (skip adding anything) and continue on-wards by clicking next: review
+
+8. Name the role "ecsInstanceRole" (just like the video) and click the create role button
+
+9. You should see your ecsInstanceRole now in the list of roles since you're back to where step 1 lead you (a list of roles)
+
+As for attaching the read only S3 policy to that role it's the same exact workflow as what's shown on video.
+
+So, things are basically the same except Amazon put the screens in a different order and has 1 extra step of needing to select EC2 at the beginning. However, that is quite different from the original video, so I'll throw up an update video soon. But for now I wanted to write it out and make sure things work for you with these steps, so let me know how it goes (awaiting your answer before I record a new video).
+
+Here's a step by step with the new UI for creating the service role (the second one on video around 4:10):
+
+1. Repeat the same 5 steps as the first one
+
+2. Filter the policy for "AmazonEC2ContainerServiceRole" (same as on video basically) and then check it.
+
+3. Click next: tags (skip adding anything) and continue on-wards by clicking next: review
+
+4. Name the role "ecsServiceRole" (just like the video) and click the create role button
+
+5. You should see your ecsServiceRole now in the list of roles since you're back to where step 1 lead you (a list of roles)
+
+Let me know how it goes.
+
