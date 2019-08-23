@@ -38,3 +38,6 @@ Here's a step by step with the new UI for creating the service role (the second 
 
 Let me know how it goes.
 
+
+Don't forget to add S3 readonly permission in ecsInstanceRole
+
