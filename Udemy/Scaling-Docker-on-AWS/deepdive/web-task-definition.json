@@ -1,17 +1,13 @@
 {
-  "containerDefinitions": [
-    {
-      "name": "nginx",
-      "image": "nginx",
-      "portMappings": [
-        {
-          "containerPort": 80,
-          "hostPort": 80
-        }
-      ],
-      "memory": 50,
-      "cpu": 102
-    }
-  ],
+  "containerDefinitions": [{
+    "name": "nginx",
+    "image": "887130596860.dkr.ecr.us-east-1.amazonaws.com/deepdive/ngnix:1.9",
+    "portMappings": [{
+      "containerPort": 80,
+      "hostPort": 80
+    }],
+    "memory": 50,
+    "cpu": 102
+  }],
   "family": "web"
 }
