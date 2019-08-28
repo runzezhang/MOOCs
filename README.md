@@ -22,6 +22,7 @@ The world's biggest and best MOOC platform. Keep studing from this to be a life-
 ## Udemy
 Best and cheap course website for engineer and skill learning. Without too much theory, mainly focus on practise. But keep eye on the comments before you pay the course, some techs update so quick so some of courses are not up-to-date.
 - [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)
+- [Scaling Docker on AWS](https://www.udemy.com/course/scaling-docker-on-aws/)
 - [Java Programming Masterclass for Software Developers](https://www.udemy.com/java-the-complete-java-developer-course/)
 - [Machine Learning, Data Science and Deep Learning with Python](https://www.udemy.com/data-science-and-machine-learning-with-python-hands-on/)
 
