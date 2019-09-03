@@ -15,5 +15,3 @@
 /log/*
 !/log/.keep
 /tmp
-
-.dockerzon.env

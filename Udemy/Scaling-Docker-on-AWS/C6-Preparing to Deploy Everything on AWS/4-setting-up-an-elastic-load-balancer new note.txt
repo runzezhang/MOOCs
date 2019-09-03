@@ -1,0 +1,3 @@
+
+Configure the health check in new AWS Version
+aws elb configure-health-check --load-balancer-name dockerzon-web --health-check Target=HTTP:80/health_check,Interval=30,UnhealthyThreshold=2,HealthyThreshold=10,Timeout=5
