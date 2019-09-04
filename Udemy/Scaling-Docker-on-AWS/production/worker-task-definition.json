@@ -1,0 +1,34 @@
+{
+  "containerDefinitions": [
+    {
+      "name": "sidekiq",
+      "image": "xxx.dkr.ecr.us-east-1.amazonaws.com/dockerzon/dockerzon:latest",
+      "command": ["./bin/sidekiq"],
+      "cpu": 1024,
+      "memory": 150,
+      "environment": [
+        {
+          "name": "RAILS_ENV",
+          "value": "production"
+        },
+        {
+          "name": "DATABASE_URL",
+          "value": "postgresql://dockerzon:intergalacticzebramoldfactory@xxx:5432/dockerzon?encoding=utf8&pool=40&timeout=5000"
+        },
+        {
+          "name": "CACHE_URL",
+          "value": "redis://xxx:6379"
+        },
+        {
+          "name": "JOB_WORKER_URL",
+          "value": "redis://xxx:6379"
+        },
+        {
+          "name": "SECRET_TOKEN",
+          "value": "xxx"
+        }
+      ]
+    }
+  ],
+  "family": "worker"
+}
