@@ -1,0 +1,57 @@
+{
+  "containerDefinitions": [
+    {
+      "name": "nginx",
+      "image": "xxx.dkr.ecr.us-east-1.amazonaws.com/dockerzon/nginx",
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 80
+        }
+      ],
+      "links": ["dockerzon:dockerzon"],
+      "volumesFrom": [
+        {
+          "sourceContainer": "dockerzon"
+        }
+      ],
+      "cpu": 256,
+      "memory": 100
+    },
+    {
+      "name": "dockerzon",
+      "image": "xxx.dkr.ecr.us-east-1.amazonaws.com/dockerzon/dockerzon",
+      "portMappings": [
+        {
+          "containerPort": 8000,
+          "hostPort": 8000
+        }
+      ],
+      "cpu": 768,
+      "memory": 300,
+      "environment": [
+        {
+          "name": "RAILS_ENV",
+          "value": "production"
+        },
+        {
+          "name": "DATABASE_URL",
+          "value": "postgresql://dockerzon:intergalacticzebramoldfactory@xxx:5432/dockerzon?encoding=utf8&pool=40&timeout=5000"
+        },
+        {
+          "name": "CACHE_URL",
+          "value": "redis://xxx:6379"
+        },
+        {
+          "name": "JOB_WORKER_URL",
+          "value": "redis://xxx:6379"
+        },
+        {
+          "name": "SECRET_TOKEN",
+          "value": "xxx"
+        }
+      ]
+    }
+  ],
+  "family": "web"
+}
