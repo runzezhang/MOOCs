@@ -1,29 +1,30 @@
 #MOOCs
+
 Actually it is not only for MOOCs, but also includes all online courses I had taken or taking right now.
 
 ## Coursera
 The world's biggest and best MOOC platform. Keep studing from this to be a life-long leaner.
 - [Data Structure and Algorithm](https://www.coursera.org/specializations/data-structures-algorithms)
-  - Algorithmic Toolbox [Source Code & Notes](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Data%20Structure%20and%20Algorithm/Algorithmic%20Toolbox?1565586017329)
-- Introduction to Data Science in Python [Source Code & Notes](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Introduction%20to%20Data%20Science%20in%20Python?1565585987781)
+  - Algorithmic Toolbox [[Source Code & Notes]](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Data%20Structure%20and%20Algorithm/Algorithmic%20Toolbox?1565586017329)
+- Introduction to Data Science in Python [[Source Code & Notes]](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Introduction%20to%20Data%20Science%20in%20Python?1565585987781)
 - [Python for Everybody](https://www.coursera.org/specializations/python)
   - Programming for Everybody
-  - Python Data Structures [Source Code & Notes](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Python%20Data%20Structures?1565585909739)
+  - Python Data Structures [[Source Code & Notes]](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Python%20Data%20Structures?1565585909739)
   - Using Python to Access Web Data
   - Using Database with Python
 - [Full-Stack Web Development with React Specialization](https://www.coursera.org/specializations/full-stack-react)
-  - Front-End Web UI Frameworks and Tools: Bootstrap 4 [Source Code & Notes](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Full-Stack%20Web%20Development%20with%20React/C1-Bootstrap)
-  - Front-End Web Development with React [Source Code & Notes](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Full-Stack%20Web%20Development%20with%20React/C2-React)
-  - Multiplatform Mobile App Development with React Native [Source Code & Notes](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Full-Stack%20Web%20Development%20with%20React/C3-React-Native?1565586113339)
-  - Server-side Development with NodeJS, Express and MongoDB [Source Code & Notes](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Full-Stack%20Web%20Development%20with%20React/NodeJS?1565586098285)
+  - Front-End Web UI Frameworks and Tools: Bootstrap 4 [[Source Code & Notes]](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Full-Stack%20Web%20Development%20with%20React/C1-Bootstrap)
+  - Front-End Web Development with React [[Source Code & Notes]](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Full-Stack%20Web%20Development%20with%20React/C2-React)
+  - Multiplatform Mobile App Development with React Native [[Source Code & Notes]](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Full-Stack%20Web%20Development%20with%20React/C3-React-Native?1565586113339)
+  - Server-side Development with NodeJS, Express and MongoDB [[Source Code & Notes]](https://github.com/runzezhang/MOOCs/tree/master/Coursera/Full-Stack%20Web%20Development%20with%20React/NodeJS?1565586098285)
 - TensorFlow in Practice Specialization
-  - Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning [Source Code & Notes](https://github.com/runzezhang/MOOCs/tree/master/Coursera/TensorFlow%20in%20Practice/Introduction%20TensorFlow%20for%20AI%20and%20ML)
+  - Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning [[Source Code & Notes]](https://github.com/runzezhang/MOOCs/tree/master/Coursera/TensorFlow%20in%20Practice/Introduction%20TensorFlow%20for%20AI%20and%20ML)
 
 ## Udemy
 Best and cheap course website for engineer and skill learning. Without too much theory, mainly focus on practise. But keep eye on the comments before you pay the course, some techs update so quick so some of courses are not up-to-date.
-- [The Complete Guide to Django REST Framework and Vue JS](udemy.com/course/the-complete-guide-to-django-rest-framework-and-vue-js) [Source Code & Notes](https://github.com/runzezhang/MOOCs/tree/master/Udemy/REST-Django-VueJS)
+- [The Complete Guide to Django REST Framework and Vue JS](udemy.com/course/the-complete-guide-to-django-rest-framework-and-vue-js) [[Source Code & Notes]](https://github.com/runzezhang/MOOCs/tree/master/Udemy/REST-Django-VueJS)
 - [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)
-- [Scaling Docker on AWS](https://www.udemy.com/course/scaling-docker-on-aws/) [Source Code & Notes](https://github.com/runzezhang/MOOCs/tree/master/Udemy/Scaling-Docker-on-AWS)
+- [Scaling Docker on AWS](https://www.udemy.com/course/scaling-docker-on-aws/) [[Source Code & Notes]](https://github.com/runzezhang/MOOCs/tree/master/Udemy/Scaling-Docker-on-AWS)
 - [Java Programming Masterclass for Software Developers](https://www.udemy.com/java-the-complete-java-developer-course/)
 - [Machine Learning, Data Science and Deep Learning with Python](https://www.udemy.com/data-science-and-machine-learning-with-python-hands-on/)
 
